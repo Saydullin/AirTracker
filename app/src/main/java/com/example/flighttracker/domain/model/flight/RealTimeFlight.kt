@@ -1,6 +1,6 @@
 package com.example.flighttracker.domain.model.flight
 
-import com.example.flighttracker.data.model.FlightResponse
+import com.example.flighttracker.data.model.flight.FlightResponse
 
 data class RealTimeFlight(
     val request: FlightRequest,
