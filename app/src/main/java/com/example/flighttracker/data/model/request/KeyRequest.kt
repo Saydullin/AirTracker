@@ -1,4 +1,4 @@
-package com.example.flighttracker.data.model
+package com.example.flighttracker.data.model.request
 
 data class KeyRequest(
     val id: String,

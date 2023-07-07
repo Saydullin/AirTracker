@@ -6,7 +6,7 @@ import retrofit2.http.GET
 
 interface GetAirportSchedule {
 
-    @GET
+    @GET("schedules")
     suspend fun getAirportSchedule(): Response<AirportScheduleResponse>
 
 }

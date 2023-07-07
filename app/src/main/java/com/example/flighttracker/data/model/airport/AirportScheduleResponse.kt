@@ -1,6 +1,6 @@
 package com.example.flighttracker.data.model.airport
 
-import com.example.flighttracker.data.model.RequestResponse
+import com.example.flighttracker.data.model.request.RequestResponse
 
 data class AirportScheduleResponse(
     val request: RequestResponse,

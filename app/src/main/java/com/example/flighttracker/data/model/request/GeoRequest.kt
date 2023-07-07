@@ -1,4 +1,4 @@
-package com.example.flighttracker.data.model
+package com.example.flighttracker.data.model.request
 
 data class GeoRequest (
     val country_code: String,

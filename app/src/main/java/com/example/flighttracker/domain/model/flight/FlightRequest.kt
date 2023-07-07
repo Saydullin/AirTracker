@@ -1,8 +1,8 @@
 package com.example.flighttracker.domain.model.flight
 
-import com.example.flighttracker.data.model.ClientRequest
-import com.example.flighttracker.data.model.KeyRequest
-import com.example.flighttracker.data.model.ParamsRequest
+import com.example.flighttracker.data.model.request.ClientRequest
+import com.example.flighttracker.data.model.request.KeyRequest
+import com.example.flighttracker.data.model.request.ParamsRequest
 
 data class FlightRequest (
     val lang: String,
