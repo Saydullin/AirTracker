@@ -13,6 +13,6 @@ import com.example.flighttracker.data.db.entities.FlightResponseEntity
 )
 abstract class AppDatabase : RoomDatabase() {
 
-
+    
 
 }
