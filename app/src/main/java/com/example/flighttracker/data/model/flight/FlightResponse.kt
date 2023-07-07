@@ -1,4 +1,4 @@
-package com.example.flighttracker.data.model
+package com.example.flighttracker.data.model.flight
 
 data class FlightResponse(
     val hex: String,
