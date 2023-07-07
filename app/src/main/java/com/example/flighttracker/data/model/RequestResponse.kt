@@ -1,6 +1,6 @@
 package com.example.flighttracker.data.model
 
-data class FlightRequestResponse (
+data class RequestResponse (
     val lang: String,
     val currency: String,
     val time: String,
