@@ -1,8 +1,8 @@
-package com.example.flighttracker.data.db.entities
+package com.example.flighttracker.data.db.entities.request
 
+import androidx.room.Embedded
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.example.flighttracker.data.model.request.KeyRequest
 
 @Entity
 data class RequestEntity(
@@ -13,8 +13,8 @@ data class RequestEntity(
     val server: String,
     val host: String,
     val pid: String,
-    val key: KeyRequest,
-    val params: ParamsRequestEntity,
+    val key: KeyRequestEntity,
+    @Embedded("params_") val params: ParamsRequestEntity,
     val version: Int,
     val method: String,
     val client: ClientRequestEntity,
