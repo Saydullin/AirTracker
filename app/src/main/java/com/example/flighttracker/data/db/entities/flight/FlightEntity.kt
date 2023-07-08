@@ -1,4 +1,4 @@
-package com.example.flighttracker.data.db.entities
+package com.example.flighttracker.data.db.entities.flight
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
